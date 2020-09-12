@@ -1,16 +1,24 @@
 {
-    "name": "com.bigbearstudios.bbunityscenecontrollers",
-    "version": "0.0.1",
-    "displayName": "BBUnity Scene Controllers",
-    "description": "",
-    "unity": "2018.3",
-    "author": {
-      "name": "Big Bear Studios",
-      "email": "development@bigbearstudios.co.uk",
-      "url": "https://bigbearstudios.co.uk/opensource"
-    },
-    "dependencies": {
-       
-    }
+  "name": "com.bigbearstudios.bbunity-scene-controllers",
+  "version": "0.0.1",
+  "displayName": "BBUnity Pools",
+  "description": "",
+  "unity": "2018.3",
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/big-bear-studios-open-source/bbunityscenecontrollers.git"
+  },
+  "bugs": "https://gitlab.com/big-bear-studios-open-source/bbunityscenecontrollers/-/issues",
+  "author": {
+    "name": "Big Bear Studios",
+    "email": "development@bigbearstudios.co.uk",
+    "url": "https://bigbearstudios.co.uk/opensource"
+  },
+  "contributors": [{
+    "name": "Stuart Farnaby",
+    "email": "stuart@bigbearstudios.co.uk"
+  }],
+  "dependencies": {
+    
   }
-  
+}
