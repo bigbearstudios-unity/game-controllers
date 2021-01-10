@@ -1,0 +1,17 @@
+{
+    "name": "Unity.BBUnitySceneControllers.Editor",
+    "references": [
+        "GUID:ae0bb325d1df24a9c97b6f1908ffba30"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
