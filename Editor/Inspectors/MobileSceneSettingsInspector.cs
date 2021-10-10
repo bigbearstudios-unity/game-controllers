@@ -8,8 +8,6 @@ namespace BBUnity.Editor {
     public class MobileSceneSettingsInspector : UnityEditor.Editor {
 
         public override void OnInspectorGUI() {
-            Debug.Log("here");
-
             GUILayout.Label ("This is a Label in a Custom Editor");
         }
     }
