@@ -58,8 +58,8 @@ namespace BBUnity.Mobile {
         [SerializeField]
         private MobileSceneSettings _sceneSettings = new MobileSceneSettings();
 
-        [SerializeField]
-        private MobileAdSettings _mobileAdSetting = new MobileAdSettings();
+        // [SerializeField]
+        // private MobileAdSettings _mobileAdSetting = new MobileAdSettings();
 
         /// <summary>
         /// The splash screen which is displayed, this could be null
