@@ -4,8 +4,8 @@
 namespace BBUnity.BaseControllers {
 
     /// <summary>
-    /// The base controller of BBUnity, Each controller can be handled via
-    /// the GameController.
+    /// Controller. The base class for all of the BBUnity Controller systems,
+    /// does very little apart from allows easier look-up
     /// </summary>
     public class Controller : BaseBehaviour {
 

@@ -2,7 +2,9 @@
 using BBUnity.BaseControllers;
 
 namespace BBUnity.TurnControllers {
-    public class TurnController : Controller {
+    // TODO
+    // Class under construction
+    // public class TurnController : SceneController {
 
-    }
+    // }
 }

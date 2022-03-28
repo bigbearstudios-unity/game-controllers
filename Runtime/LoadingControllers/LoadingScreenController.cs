@@ -4,8 +4,9 @@ using System;
 using System.Collections.Generic;
 
 using BBUnity.BaseControllers;
+using BBUnity.SceneControllers;
 
-namespace BBUnity {
+namespace BBUnity.LoadingControllers {
 
     public class LoadingScreenReference {
 
@@ -33,7 +34,7 @@ namespace BBUnity {
     /// LoadingScreenController allows a single loading screen to be shown to the user while
     /// loading of the game / levels is done in the background.
     /// </summary>
-    public class LoadingScreenController : Controller {
+    public class LoadingScreenController : SceneController {
 
         [SerializeField, Tooltip("The loading scenes which are avalible to the loading scene controller")]
         private List<SceneReference> _avalibleScenes;

@@ -1,7 +1,11 @@
 ﻿using UnityEngine;
 
-namespace BBUnity.LevelBased {
-    public class LevelLoadingController : MonoBehaviour {
+namespace BBUnity.LevelControllers {
+
+    /// <summary>
+    /// LevelLoader
+    /// </summary>
+    public class LevelLoader : MonoBehaviour {
 
         /// <summary>
         /// The previous level, can be null
@@ -12,8 +16,5 @@ namespace BBUnity.LevelBased {
         /// The next level
         /// </summary>
         private Level _nextLevel;
-
-        private SceneController _sceneController;
-        private LoadingScreenController _loadingSceneController;
     }
 }

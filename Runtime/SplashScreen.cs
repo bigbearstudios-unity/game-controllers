@@ -5,8 +5,6 @@ using UnityEngine;
 
 namespace BBUnity {
 
-    public delegate void SplashScreenHidden();
-
     /// <summary>
     /// A simple splashscreen wrapper which allows the super fast loading of a scene
     /// to be coupled with the transition to a loading screen or another scene but
@@ -15,7 +13,7 @@ namespace BBUnity {
     public class SplashScreen : BaseBehaviour {
 
         [SerializeField, Tooltip("The duration of the splash screen, 0 will keep it on until removed manually")]
-        private float _duration;
+        private float _duration = 0.0f;
 
         [SerializeField, Tooltip("The fade time, this will be used for automatic dismissal but will be overriden by the manual call to hide.")]
         private float _fadeDuration = 1.0f;
@@ -26,7 +24,7 @@ namespace BBUnity {
         private CanvasGroup _canvasGroup;
 
         public bool HasDuration {
-            get { return _duration > 0.000001; }
+            get { return _duration > 0.1; }
         }
 
         public float Duration {
@@ -77,8 +75,6 @@ namespace BBUnity {
         /// Hides the splash screen after the delay has passed
         /// </summary>
         public void Hide() {
-
-
             //if(ShouldHideWithDelay) {
             //    WaitThen(_duration, FadeThenDestroy(_duration));
             //}

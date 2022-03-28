@@ -1,8 +1,10 @@
 ﻿using UnityEngine;
 
 using BBUnity.BaseControllers;
+using BBUnity.SceneControllers;
+using BBUnity.LoadingControllers;
 
-namespace BBUnity.Mobile {
+namespace BBUnity.MobileControllers {
 
     [System.Serializable]
     public struct MobileBootSettings {
@@ -47,7 +49,7 @@ namespace BBUnity.Mobile {
      * of mobile games with minimal effort.
      * 
      * Limitations: 
-     *  - Single Loading Screen
+     *  - Single Loading Screen for the entire game
      * 
      * The Flow: 
      *  - Boots application

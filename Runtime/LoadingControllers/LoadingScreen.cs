@@ -1,10 +1,10 @@
 ﻿using UnityEngine;
 
 
-namespace BBUnity {
+namespace BBUnity.LoadingControllers {
 
     /// <summary>
-    /// Representation of a single / Multiple loading scene which can be shown through-out
+    /// Representation of a single / Multiple loading screen (Scene) which can be shown through-out
 	/// the game. This should be used in conjuction with the LoadingSceneController class for maximum useful-ness
     /// </summary>
     public class LoadingScreen : BaseBehaviour {

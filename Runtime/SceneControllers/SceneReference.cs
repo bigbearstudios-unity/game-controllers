@@ -6,8 +6,9 @@ using UnityEditor.SceneManagement;
 
 using UnityEngine;
 
-namespace BBUnity {
+namespace BBUnity.SceneControllers {
 
+    
     [System.Serializable]
     public class SceneReference : ISerializationCallbackReceiver {
 

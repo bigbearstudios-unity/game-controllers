@@ -2,15 +2,22 @@
 using System.Collections.Generic;
 
 
-namespace BBUnity.LevelBased {
+namespace BBUnity.LevelControllers {
+
     /// <summary>
-    /// The based concept for a level. This should be the top level component
-    /// in any prefab / scene created
+    /// Represents a level within a game.
     /// </summary>
     public class Level : MonoBehaviour {
 
+        /// <summary>
+        /// The spawn points in the level, these are set automatically.
+        /// </summary>
         private List<LevelSpawnPoint> _spawnPoints;
-        private List<LevelTransition> _transitions;
+
+        /// <summary>
+        /// The level transition points in the level, these are set automatically.
+        /// </summary>
+        private List<LevelTransitionPoint> _transitionPoints;
 
 
     }
