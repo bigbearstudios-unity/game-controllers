@@ -8,7 +8,7 @@ namespace BBUnity.LevelControllers {
     /// Represents a level within a game.
     /// </summary>
     public class Level : MonoBehaviour {
-
+        
         /// <summary>
         /// The spawn points in the level, these are set automatically.
         /// </summary>
