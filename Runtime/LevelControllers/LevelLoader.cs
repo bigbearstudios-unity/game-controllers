@@ -3,7 +3,7 @@
 namespace BBUnity.LevelControllers {
 
     /// <summary>
-    /// LevelLoader
+    /// LevelLoader, abstaction layer for the loading of levels
     /// </summary>
     public class LevelLoader : MonoBehaviour {
 

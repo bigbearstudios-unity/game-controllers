@@ -7,8 +7,8 @@ namespace BBUnity.SceneControllers.SubControllers {
     /// </summary>
     class CameraController {
 
-        [SerializeField]
-        private string _cameraContainerName = "";
+        // [SerializeField]
+        // private string _cameraContainerName = "";
 
         /// <summary>
         /// The list of Cameras in the scene

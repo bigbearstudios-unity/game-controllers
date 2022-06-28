@@ -4,15 +4,13 @@
 namespace BBUnity.LoadingControllers {
 
     /// <summary>
-    /// Representation of a single / Multiple loading screen (Scene) which can be shown through-out
-	/// the game. This should be used in conjuction with the LoadingSceneController class for maximum useful-ness
+    /// A top level 
     /// </summary>
     public class LoadingScreen : BaseBehaviour {
 
         /// <summary>
         /// The loading operation whos loading is linked to the loading
-        /// scene. This can be null if the loading scene has been displayed
-        /// by the developer through the .show api
+        /// scene, can be null.
         /// </summary>
         private AsyncOperation _loadingOperation = null;
 
@@ -20,44 +18,17 @@ namespace BBUnity.LoadingControllers {
             get { return _loadingOperation != null ? Mathf.Clamp01(_loadingOperation.progress / 0.9f) : 0.0f; }
         }
 
-
-        private void Awake() {
-            
-        }
-
-        private void Start() {
-            
-        }
-
-        private void Update() {
-            
-        }
-
-        /*
-         * Public Methods
-         */
-
-
+        private void Start() {}
+        private void Update() {}
 
         /*
          * Virtual methods which can be utilized by the subclass
          */
 
-        protected virtual void OnShow() {
-            
-        }
-
-        protected virtual void OnProgressUpdate(float progress) {
-
-        }
-
-        protected virtual void OnLoadingComplete() {
-
-        }
-
-        protected virtual void OnHide() {
-
-        }
+        protected virtual void OnShow() {}
+        protected virtual void OnProgressUpdate(float progress) {}
+        protected virtual void OnLoadingComplete() {}
+        protected virtual void OnHide() {}
     }
 }
 

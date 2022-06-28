@@ -6,9 +6,9 @@ namespace BBUnity.DebugControllers {
     //https://www.youtube.com/watch?v=VzOEM-4A2OM&ab_channel=GameDevGuide
 
     /// <summary>
-    /// ConsoleController, ...
+    /// ConsoleController, Allows the calling of console commands
     /// </summary>
-    [AddComponentMenu("BBUnity/Controllers/ConsoleController")]
+    [AddComponentMenu("BBUnity/Controllers/Debug/ConsoleController")]
     public class ConsoleController : MonoBehaviour {
 
     }

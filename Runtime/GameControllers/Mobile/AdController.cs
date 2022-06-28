@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace BBUnity.MobileControllers {
+namespace BBUnity.GameControllers.Mobile {
 
     /// <summary>
     /// AdController for displaying adverts in mobile games. This allows

@@ -3,7 +3,7 @@ using System.Collections;
 
 using UnityEngine;
 
-namespace BBUnity {
+namespace BBUnity.GameControllers.Mobile {
 
     /// <summary>
     /// A simple splashscreen wrapper which allows the super fast loading of a scene

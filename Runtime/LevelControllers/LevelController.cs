@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 
+using BBUnity.BaseControllers;
 
 namespace BBUnity.LevelControllers {
 
@@ -11,7 +12,7 @@ namespace BBUnity.LevelControllers {
     public class LevelController : MonoBehaviour {
 
         /// <summary>
-        /// The current level which is in memory
+        /// The current level which is being played
         /// </summary>
         private Level _level;
     }

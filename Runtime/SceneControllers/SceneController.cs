@@ -1,8 +1,9 @@
 ﻿using System;
 
 using BBUnity.BaseControllers;
-using BBUnity.SceneControllers;
 using BBUnity.LoadingControllers;
+
+using BBUnity.SceneControllers.GameObjects;
 
 using UnityEngine.SceneManagement;
 
@@ -13,10 +14,10 @@ namespace BBUnity.SceneControllers {
     /// </summary>
     public class SceneController : Controller {
 
-        private LoadingScreenController _loadingSceneController;
+        // private LoadingScreenController _loadingSceneController;
 
         private void Awake() {
-            _loadingSceneController = CreateOrFindLoadingScreenController();
+            // _loadingSceneController = CreateOrFindLoadingScreenController();
 
             SetInstance(this);
         }
@@ -25,9 +26,9 @@ namespace BBUnity.SceneControllers {
 
         }
 
-        private LoadingScreenController CreateOrFindLoadingScreenController() {
-            return LoadingScreenController.CreateOrFind();
-        }
+        // private LoadingScreenController CreateOrFindLoadingScreenController() {
+        //     return LoadingScreenController.CreateOrFind();
+        // }
 
         /*
          * Transition Scene
@@ -81,34 +82,34 @@ namespace BBUnity.SceneControllers {
          * Loads a scene into the current scene, Sync versions
          */
 
-        public void LoadScene(SceneReference sceneReference) {
+        // public void LoadScene(SceneReference sceneReference) {
 
-        }
+        // }
 
-        public void LoadScene(int sceneBuildIndex) {
+        // public void LoadScene(int sceneBuildIndex) {
 
-        }
+        // }
 
-        public void LoadScene(string sceneName) {
+        // public void LoadScene(string sceneName) {
 
-        }
+        // }
 
         /*
          * Load Scene 
          * Loads a scene into the current scene, Async versions
          */
 
-        public void LoadSceneAsync(SceneReference sceneReference) {
+        // public void LoadSceneAsync(SceneReference sceneReference) {
 
-        }
+        // }
 
-        public void LoadSceneAsync(int sceneBuildIndex) {
+        // public void LoadSceneAsync(int sceneBuildIndex) {
 
-        }
+        // }
 
-        public void LoadSceneAsync(string sceneName) {
+        // public void LoadSceneAsync(string sceneName) {
 
-        }
+        // }
 
 
 

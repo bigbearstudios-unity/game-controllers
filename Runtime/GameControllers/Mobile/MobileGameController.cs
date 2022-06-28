@@ -1,10 +1,10 @@
 ﻿using UnityEngine;
 
+using BBUnity.SceneManagement;
 using BBUnity.BaseControllers;
 using BBUnity.SceneControllers;
-using BBUnity.LoadingControllers;
 
-namespace BBUnity.MobileControllers {
+namespace BBUnity.GameControllers.Mobile {
 
     [System.Serializable]
     public struct MobileBootSettings {
@@ -55,7 +55,7 @@ namespace BBUnity.MobileControllers {
      *  - Boots application
      *  - Loads either the main scene or the loading scene
      */
-    public class MobileGameController : Controller {
+    public class MobileGameController : GameController {
 
         [SerializeField]
         private MobileSceneSettings _sceneSettings = new MobileSceneSettings();
@@ -77,13 +77,13 @@ namespace BBUnity.MobileControllers {
         /// The loading scene controller. This is created for the user in the majority of
         /// cases but will be searched for first
         /// </summary>
-        private LoadingScreenController _loadingSceneController;
+        private LoadingController _loadingController;
 
         private void Awake() {
             _splashScreen = FindSplashScreen();
 
-            _loadingSceneController = CreateLoadingSceneController();
-            _sceneController = CreateSceneController();
+            // _loadingController = CreateOrFindLoadingController();
+            _sceneController = CreateOrFindSceneController();
 
             SetInstance(this, true);
         }
@@ -92,13 +92,13 @@ namespace BBUnity.MobileControllers {
             StartLoading();
         }
 
-        private SceneController CreateSceneController() {
+        private SceneController CreateOrFindSceneController() {
             return SceneController.CreateOrFind();
         }
 
-        private LoadingScreenController CreateLoadingSceneController() {
-            return LoadingScreenController.CreateOrFind(_sceneSettings.loadingScene);
-        }
+        // private LoadingController CreateOrFindLoadingController() {
+        //     return LoadingController.CreateOrFind(_sceneSettings.loadingScene);
+        // }
 
         private SplashScreen FindSplashScreen() {
             return FindObjectOfType<SplashScreen>();

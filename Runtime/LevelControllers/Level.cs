@@ -18,8 +18,6 @@ namespace BBUnity.LevelControllers {
         /// The level transition points in the level, these are set automatically.
         /// </summary>
         private List<LevelTransitionPoint> _transitionPoints;
-
-
     }
 }
 
