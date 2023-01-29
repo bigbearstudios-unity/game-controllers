@@ -1,8 +1,7 @@
 {
-  "name": "com.bigbearstudios.bbunity-scene-controllers",
+  "name": "com.bigbearstudios.bbunity-game-controllers",
   "version": "0.0.1",
-  "displayName": "BBUnity Pools",
-  "description": "",
+  "displayName": "BBUnity Game Controllers",
   "unity": "2018.3",
   "repository": {
     "type": "git",
@@ -14,11 +13,10 @@
     "email": "development@bigbearstudios.co.uk",
     "url": "https://bigbearstudios.co.uk/opensource"
   },
-  "contributors": [{
-    "name": "Stuart Farnaby",
-    "email": "stuart@bigbearstudios.co.uk"
-  }],
-  "dependencies": {
-    
-  }
+  "contributors": [
+    {
+      "name": "Stuart Farnaby",
+      "email": "stuart@bigbearstudios.co.uk"
+    }
+  ]
 }

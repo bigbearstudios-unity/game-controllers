@@ -10,27 +10,27 @@ namespace BBUnity.LoadingControllers.References {
     /// </summary>
     public class LoadingScreenReference {
 
-        /// <summary>
-        /// 
-        /// </summary>
-        [SerializeField]
-        private string _name = "";
+        // /// <summary>
+        // /// 
+        // /// </summary>
+        // [SerializeField]
+        // private string _name = "";
 
-        /// <summary>
-        /// The LoadingScreen prefab which will be instanciated when required
-        /// </summary>
-        [SerializeField]
-        private LoadingScreen _loadingScreenPrefab = null;
+        // /// <summary>
+        // /// The LoadingScreen prefab which will be instanciated when required
+        // /// </summary>
+        // [SerializeField]
+        // private LoadingScreen _loadingScreenPrefab = null;
 
-        /// <summary>
-        /// The instanciated LoadingScreen
-        /// </summary>
-        private LoadingScreen _loadingScreen;
+        // /// <summary>
+        // /// The instanciated LoadingScreen
+        // /// </summary>
+        // private LoadingScreen _loadingScreen;
 
-        /// <summary>
-        /// The caching option for the LoadingScreen
-        /// </summary>
-        [SerializeField]
-        private LoadingScreenCachingOptions _cachingOptions = LoadingScreenCachingOptions.Never;
+        // /// <summary>
+        // /// The caching option for the LoadingScreen
+        // /// </summary>
+        // [SerializeField]
+        // private LoadingScreenCachingOptions _cachingOptions = LoadingScreenCachingOptions.Never;
     }
 }

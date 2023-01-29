@@ -1,9 +1,10 @@
 using UnityEngine;
 
-namespace BBUnity.SceneControllers.SubControllers {
+namespace BBUnity.SceneControllers {
 
     /// <summary>
-    /// Allows access to all of the cameras in the scene
+    /// Allows access to all of the cameras in the scene. Will
+    /// move all found cameras into 
     /// </summary>
     class CameraController {
 
