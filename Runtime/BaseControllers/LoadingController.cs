@@ -1,15 +1,15 @@
-using UnityEngine;
+// using UnityEngine;
 
 
-namespace BBUnity.BaseControllers {
+// namespace BBUnity.BaseControllers {
 
-    /// <summary>
-    /// The Base LoadingController. Handles the storage of the LoadingScenes
-    /// </summary>
-    [AddComponentMenu("")]
-    public abstract class LoadingController : BaseBehaviour {
+//     /// <summary>
+//     /// The Base LoadingController. Handles the storage of the LoadingScenes
+//     /// </summary>
+//     [AddComponentMenu("")]
+//     public abstract class LoadingController : BBMonoBehaviour {
 
-    }
-}
+//     }
+// }
 
 

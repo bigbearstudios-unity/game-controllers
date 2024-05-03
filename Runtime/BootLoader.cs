@@ -1,24 +1,24 @@
-using UnityEngine;
+// using UnityEngine;
 
-using BBUnity.GameControllers;
-using BBUnity.LoadingControllers;
+// using BBUnity.GameControllers;
+// using BBUnity.LoadingControllers;
 
-namespace BBUnity {
+// namespace BBUnity {
 
-    [AddComponentMenu("BBUnity/Controllers/BootLoader")]
-    class BootLoader : MonoBehaviour {
+//     [AddComponentMenu("BBUnity/Controllers/BootLoader")]
+//     class BootLoader : MonoBehaviour {
         
-        [Tooltip("The default game controller")]
-        GameController _defaultGameController;
+//         [Tooltip("The default game controller")]
+//         GameController _defaultGameController;
 
-        // [Tooltip("")]
-        // LoadingController _loadingController;
+//         // [Tooltip("")]
+//         // LoadingController _loadingController;
 
-        /// <summary>
-        /// Called upon the loading of Unity. 
-        /// </summary>
+//         /// <summary>
+//         /// Called upon the loading of Unity. 
+//         /// </summary>
         
-    }
+//     }
 
     
-}
+// }
