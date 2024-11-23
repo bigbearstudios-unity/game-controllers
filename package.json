@@ -5,9 +5,9 @@
   "unity": "2018.3",
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/big-bear-studios-open-source/bbunityscenecontrollers.git"
+    "url": "https://github.com/bigbearstudios-unity/game-controllers.git"
   },
-  "bugs": "https://gitlab.com/big-bear-studios-open-source/bbunityscenecontrollers/-/issues",
+  "bugs": "https://github.com/bigbearstudios-unity/game-controllers/issues",
   "author": {
     "name": "Big Bear Studios",
     "email": "development@bigbearstudios.co.uk",
@@ -18,5 +18,8 @@
       "name": "Stuart Farnaby",
       "email": "stuart@bigbearstudios.co.uk"
     }
-  ]
+  ],
+  "dependencies": {
+    "com.bigbearstudios.bbunity-test-support": "2.1.1"
+  }
 }
